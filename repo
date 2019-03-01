@@ -1,0 +1,13 @@
+[gremlin-release]
+name=Gremlin
+baseurl=https://rpm.gremlin.com/noarch/
+enabled=1
+gpgcheck=1
+gpgkey=https://rpm.gremlin.com/gremlin-pgp-public.key
+
+[gremlin-test]
+name=Gremlin
+baseurl=https://rpm.gremlin.com/staging/noarch/
+enabled=0
+gpgcheck=1
+gpgkey=https://rpm.gremlin.com/gremlin-pgp-public.key
